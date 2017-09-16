@@ -180,3 +180,9 @@ export LANGUAGE=en_US.UTF-8
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 
+### ansible
+if [ -f ~/ansible/hacking/env-setup ]; then
+    source ~/ansible/hacking/env-setup -q
+fi
+
+
