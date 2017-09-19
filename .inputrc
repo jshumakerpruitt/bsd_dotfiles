@@ -7,5 +7,4 @@ set completion-ignore-case On
     "gg": beginning-of-history
     "G": end-of-history
     set keymap vi-insert
-    "fd": vi-movement-mode
     "\C-p": history-search-backward
