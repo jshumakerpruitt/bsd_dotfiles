@@ -185,4 +185,4 @@ if [ -f ~/ansible/hacking/env-setup ]; then
     source ~/ansible/hacking/env-setup -q
 fi
 
-
+export PATH="$HOME/.yarn/bin:$PATH"
