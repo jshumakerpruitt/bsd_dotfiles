@@ -17,7 +17,8 @@ ln -sf dotfiles/.tmux.conf .
 git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
 ```
 
-vi movement breaks some repls (psql, pry) but it's nice to have
+separate inputrc for bash and (pry, psql, etc)
 ```sh
 ln -sf  dotfiles/.inputrc .
+ln -sf  dotfiles/.inputrc.jasper .
 ```

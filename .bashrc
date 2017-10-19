@@ -185,4 +185,10 @@ if [ -f ~/ansible/hacking/env-setup ]; then
     source ~/ansible/hacking/env-setup -q
 fi
 
+### hack to enable "fd" -> vi normal mode in bash only
+### not pry, psql, etc
+if [ -f ~/.inputrc.jasper ]; then
+    bind -f ~/.inputrc.jasper
+fi
+
 export PATH="$HOME/.yarn/bin:$PATH"
