@@ -171,6 +171,8 @@ export GOPATH=$HOME/go
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 export JAVA_HOME=/usr/local/jdk-1.8.0/
 export PATH=$PATH:/usr/local/jdk-1.8.0/bin
+export PATH=$PATH:/home/jasper/.gem/ruby/2.4/bin
+export GEM_HOME=/home/jasper/.gem/ruby/2.4
 
 # necessary for rendering symbols and icons in spacemacs
 export LC_ALL=en_US.UTF-8
