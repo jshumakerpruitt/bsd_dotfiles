@@ -13,6 +13,7 @@ ln -sf dotfiles/.bashrc_custom .
 ln -sf dotfiles/.bash_aliases .
 ln -sf dotfiles/.spacemacs .
 ln -sf dotfiles/.tmux.conf .
+ln -sf dotfiles/.vimrc .
 
 git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
 ```
