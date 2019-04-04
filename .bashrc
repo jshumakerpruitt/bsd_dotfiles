@@ -120,13 +120,15 @@ alias gitam='git commit -am '
 alias gits='git status'
 alias gitd='git diff'
 alias gitl='git log'
-alias vi='emacs'
+alias vi='emacsclient -create-frame --alternate-editor=""'
+
 
 # 2.3) Text and editor commands
 alias em='emacs -nw'     # No X11 windows
 alias eqq='emacs -nw -Q' # No config and no X11
-export EDITOR='emacs'
-export VISUAL='emacs'
+export ALTERNATE_EDITOR=""
+export EDITOR="emacsclient -t"                  # $EDITOR opens in terminal
+export VISUAL="emacsclient -t"         # $VISUAL opens in GUI mode
 
 # 2.4) grep options
 export GREP_OPTIONS='--color=auto'
@@ -157,7 +159,6 @@ source ~/.bashrc_custom
 alias sudo="sudo "
 alias gam="git commit -am"
 alias gad="git add -A"
-alias vi="emacs"
 alias tmux="tmux -2"
 alias vimigrate='vi db/migrate/`ls db/migrate | tail -n1`'
 
