@@ -127,8 +127,8 @@ alias vi='emacsclient -create-frame --alternate-editor=""'
 alias em='emacs -nw'     # No X11 windows
 alias eqq='emacs -nw -Q' # No config and no X11
 export ALTERNATE_EDITOR=""
-export EDITOR="emacsclient -t"                  # $EDITOR opens in terminal
-export VISUAL="emacsclient -t"         # $VISUAL opens in GUI mode
+export EDITOR="vim"                  # $EDITOR opens in terminal
+export VISUAL="vim"         # $VISUAL opens in GUI mode
 
 # 2.4) grep options
 export GREP_OPTIONS='--color=auto'

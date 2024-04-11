@@ -8,3 +8,4 @@ set completion-ignore-case On
     "G": end-of-history
     set keymap vi-insert
     "\C-p": history-search-backward
+  $endif
