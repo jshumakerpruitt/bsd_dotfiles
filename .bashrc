@@ -120,7 +120,7 @@ alias gitam='git commit -am '
 alias gits='git status'
 alias gitd='git diff'
 alias gitl='git log'
-alias vi='emacsclient -create-frame --alternate-editor=""'
+alias vi='vim'
 
 
 # 2.3) Text and editor commands
@@ -142,11 +142,11 @@ unset LANG
 
 # 2.6) Install rlwrap if not present
 # http://stackoverflow.com/a/677212
-command -v rlwrap >/dev/null 2>&1 || { echo >&2 "Install rlwrap to use node: pkg_add rlwrap";}
+#command -v rlwrap >/dev/null 2>&1 || { echo >&2 "Install rlwrap to use node: pkg_add rlwrap";}
 
 # 2.7) node.js and nvm
 # http://nodejs.org/api/repl.html#repl_repl
-alias node="env NODE_NO_READLINE=1 rlwrap node"
+#alias node="env NODE_NO_READLINE=1 rlwrap node"
 alias node_repl="node -e \"require('repl').start({ignoreUndefined: true})\""
 export NODE_DISABLE_COLORS=1
 
