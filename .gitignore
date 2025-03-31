@@ -10,3 +10,4 @@ ert-x.*
 ert.*
 .emacs.d/auto-save-list/*
 *~
+fish/fish_variables
