@@ -12,7 +12,7 @@ if status is-interactive
         source ~/.secret_aliases
     end
 
-    set -x GEM_HOME "/your/path/to/gems"
+    set -x GEM_HOME "/home/jasper/.gem/ruby/3.2"
     set -x PATH "$GEM_HOME/bin" $PATH
 
     export PATH="$HOME/.local/bin:$PATH"
