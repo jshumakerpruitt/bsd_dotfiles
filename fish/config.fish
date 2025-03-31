@@ -6,7 +6,7 @@ if status is-interactive
     alias gits='git status'
     alias gitd='git diff'
     alias gitl='git log'
-    alias vi='emacs'
+    alias vi='vim'
     alias em='emacs'
     if test -f ~/.secret_aliases
         source ~/.secret_aliases
