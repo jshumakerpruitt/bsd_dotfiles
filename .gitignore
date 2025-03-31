@@ -11,3 +11,4 @@ ert.*
 .emacs.d/auto-save-list/*
 *~
 fish/fish_variables
+fish/conf.d/omf.fish
